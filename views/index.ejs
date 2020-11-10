@@ -9,7 +9,9 @@
     
     <h2>Registrar<h2>
         
-        <form action="/show" method="POST">
+        <form action="/show" method="POST"> <!--[action] vai informar o redirecionamentodo [app Express], que é para [/show],
+                                                e [method] informa ao navegador qual solicitação enviar, que nesse caso é POST-->
+
             <input type="text" placeholder="Nome" name="name">
             <input type="text" placeholder="Sobrenome" name="surname">
             <button type="submit">Submit</button>
